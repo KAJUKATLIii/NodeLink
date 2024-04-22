@@ -57,7 +57,7 @@ export default {
     },
     request: {
       auth: true,
-      all: true, // Only enable for debugging purposes.
+      all: false, // Only enable for debugging purposes.
       enabled: true,
       error: true,
       showBody: true,
@@ -97,7 +97,7 @@ export default {
       youtube: {
         enabled: true,
         authentication: {
-          enabled: false, // Authentication using accounts outside EU helps bypass 403 errors. Enable at your own risk.
+          enabled: true, // Authentication using accounts outside EU helps bypass 403 errors. Enable at your own risk.
           cookies: { // Available in YouTube website cookies.
             SID: 'DISABLED',
             LOGIN_INFO: 'DISABLED'
