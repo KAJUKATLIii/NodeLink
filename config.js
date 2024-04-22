@@ -97,7 +97,7 @@ export default {
       youtube: {
         enabled: true,
         authentication: {
-          enabled: true, // Authentication using accounts outside EU helps bypass 403 errors. Enable at your own risk.
+          enabled: false, // Authentication using accounts outside EU helps bypass 403 errors. Enable at your own risk.
           cookies: { // Available in YouTube website cookies.
             SID: 'DISABLED',
             LOGIN_INFO: 'DISABLED'
